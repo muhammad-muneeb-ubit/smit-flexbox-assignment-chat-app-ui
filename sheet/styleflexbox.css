@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.header{
+    /* border: 3px solid black; */
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+#no1,#no2,#no3,#f1,#f2,#f3{
+    padding: 20px;
+    font-size: 20px;
+}
+#no1{
+    border: 3px solid #8E99F3;
+    background-color: #8E99F3;
+}
+#no2{
+    border: 3px solid #FF867C;
+    background-color: #FF867C;
+}
+#no3{
+    border: 3px solid #80D6FF;
+    background-color: #80D6FF;
+}
+#no4{
+    flex-grow: 5;
+}
+.footer{
+    /* border: 3px solid black; */
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+     display: flex;
+    flex-wrap: wrap;
+}
+#f1{
+    border: 3px solid #FF867C;
+    background-color: #FF867C;
+}
+#f2{
+    border: 3px solid #80D6FF;
+    background-color: #80D6FF;
+    flex-grow: 4;
+}
+#f3{
+    border: 3px solid #98EE99;
+    background-color: #98EE99;
+}
+.chat{
+    margin: 2px;
+    border: 3px solid #73A8BF;
+    display: flex;
+}
+.chats{
+    border: 3px solid #73A8BF;
+    margin: 15px;
+    height: 55px;
+    display: flex;
+}
+.right{
+    border: 3px solid #73A8BF;
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    border: 3px solid #73A8BF;
+    width: 80vw;
+    height: 70vh;
+}
+.cendiv{
+    border: 3px solid #80D6FF;
+    width: 110px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #80D6FF;
+}
+#user1,#user2,#user3{
+    margin-top:10px ;
+    margin-left:6px ;
+}
+.name{
+    
+    flex-direction: column;
+}
+.mess{
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    color: #2e6c86;
+    overflow: hidden;
+}
+#remess1,#remess2,#remess3{
+    font-weight: normal;
+    
+} 
+#remess11,#remess22,#remess33{
+    font-weight: bold;
+}
+#david{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 7px;
+}
+.container{
+    border: 5px solid #73A8BF;
+}
+#remess22{
+    padding-left: 136px;
+}
